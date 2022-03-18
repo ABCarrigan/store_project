@@ -1,8 +1,8 @@
 const express = require('express')
 const router = express.Router()
 const Product = require('../models/products.js')
-const dataController = require('./dataController')
-const viewController = require('./viewController')
+const dataController = require('./dataController.js')
+const viewController = require('./viewController.js')
 
 // Index
 router.get('/', (req, res) => {
@@ -39,19 +39,7 @@ router.put('/:id', (req, res) => {
 })
 
 // Create
-router.post('/', (req, res) => {
-    if (req.body.readyToEat === "on") {
-        req.body.readyToEat = true
-    } else {
-        req.body.readyToEat = false
-    }
-    // Use Model to create Product Document
-    Product.create(req.body, (error, createdProduct) => {
-        // Once created - respond to client
-        res.redirect('/products')
-    })
-})
-
+router.post('/', dataController.create, viewController.redirectHome)
 // Edit
 router.get('/:id/edit', (req, res) => {
     // Find our document from the collection - using mongoose model

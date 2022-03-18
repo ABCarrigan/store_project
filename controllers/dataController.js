@@ -7,26 +7,21 @@ const dataController = {
         res.status(404).send({
           msg: err.message
         })
-      }else {
+      } else {
         res.locals.data.products = allProducts
         next()
       }
     });
   },
   create(req, res, next){
-    req.body.readyToEat = req.body.readyToEat === "on" ? true : false;
-    // Use Model to create Product Document
-    Product.create(req.body, (error, createdProduct) => {
-        // Once created - respond to client
-        if(err){
-          res.status(404).send({
-            msg: err.message
-          })
-        }else {
+    Product.create(req.body, (err, createdProduct) => {
+      if(err) {
+          res.status(404).send({ msg: err.message })
+      } else {
           res.locals.data.product = createdProduct
           next()
-        }
-    });
+      }
+  })
   },
   show(req, res, next){
     Product.findById(req.params.id, (err, foundProduct)=>{
