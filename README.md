@@ -1,9 +1,9 @@
-#<a href="https://acardiner.herokuapp.com/products">My Store Project - Diner</a>
+# <a href="https://acardiner.herokuapp.com/products">My Store Project - Diner</a>
 
 ### A fullstack application using node.js and mongoDB, deployed via Heroku.
 
 The goal of this application was to create a web app that interacts with a live database, which can be manipulated by the user to create, edit, or delete entries in the database. The application has a diner theme but the user is free to add whatever they wish to it.
-Link to the application on Heroku: <a>https://acardiner.herokuapp.com/products</a>
+<br>Link to the application on Heroku: <a>https://acardiner.herokuapp.com/products</a>
 
 
 ### A video demonstration of the application at work.
