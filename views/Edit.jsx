@@ -19,6 +19,7 @@ class Edit extends React.Component{
         <br/>
         <input type="submit" value="Submit Changes"/>
       </form>
+      <a href="/products">Cancel changes and go back to the index</a>
       </DefaultLayout>
     )
   }

@@ -37,6 +37,16 @@ body {
     flex-wrap:wrap;
     background-color:antiquewhite;
 }
+.newContainer {
+    background-color:antiquewhite;
+    text-align:center;
+    justify-content:center;
+}
 form {
     background-color:antiquewhite;
+}
+#productImgShow {
+    height: 300px;
+    width: auto;
+    border-radius: 25px;
 }

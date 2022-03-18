@@ -1,6 +1,8 @@
 const express = require('express')
 const router = express.Router()
 const Product = require('../models/products.js')
+const dataController = require('./dataController')
+const viewController = require('./viewController')
 
 // Index
 router.get('/', (req, res) => {
@@ -71,7 +73,8 @@ router.get('/:id', (req, res) => {
         })
     })
 })
-
+// Buy
+router.patch('/:id', dataController.buy, viewController.redirectShow)
 
 // export router
 module.exports = router
