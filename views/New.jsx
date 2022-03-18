@@ -5,14 +5,17 @@ class New extends React.Component {
         return (
             <div>
                 <link rel="stylesheet" href="/css/app.css"/>
-                <h1>New Product Page</h1>
+                <h1>New Dish Page</h1>
                 <form action='/products' method='POST'>
                     Name: <input type='text' name='name' />
                     <br></br>
-                    Color: <input type='text' name='color' />
+                    Image Link: <input type='text' name='img' />
                     <br></br>
-                    Is Ready To Eat: <input type='checkbox' name='readyToEat' />
+                    Description: <input type="text" name="description" />
                     <br></br>
+                    Price: <input type="number" name="price" />
+                    <br></br>
+                    Quantity: <input type="number" name="quantity" />
                     <input type='submit' name='' value='Create Product' />
                 </form>
             </div>
