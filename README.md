@@ -17,32 +17,32 @@ The goal of this application was to create a web app that interacts with a live 
 
 ##### A preview of the Edit view, accessed from the Edit button on an item.
 
-<img src="">
+<img src="images/edit.png">
 
 ##### A demonstration of how the index updates to reflect a new edit.
 
-<img src="">
+<img src="images/post-edit.png">
 
 ##### A display of the Delete button at work.
 
-<img src="">
+<img src="images/delete.png">
 
 ##### A display of the page you're taken to when you click on the green "create" button.
 
-<img src="">
+<img src="images/create.png">
 
 ##### Showing what happens after you create an entry.
 
-<img src="">
+<img src="images/post-create.png">
 
 ##### A display of the Show view, accessed from clicking the View button.
 
-<img src="">
+<img src="images/show.png">
 
 ##### A display of the buy button's function, decreasing the quantity of the item.
 
-<img src="">
+<img src="images/buy.png">
 
 ##### Demonstration of how this change to quantity is preserved in the index view.
 
-<img src="">
+<img src="images/post-buy-2.png">
