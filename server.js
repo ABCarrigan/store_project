@@ -2,7 +2,6 @@ require('dotenv').config()
 const express = require('express')
 const methodOverride = require('method-override')
 const app = express()
-const PORT = process.env.PORT || 3000
 
 // connecting to mongo db
 const db = require('./models/db')
@@ -28,6 +27,6 @@ app.use('/products', require('./controllers/routeController.js'));    // Mounts 
 
 
 // Listen on PORT
-app.listen(PORT, () => {
-    console.log('Listening on port', PORT);
+app.listen(process.env.PORT || 3000, () => {
+    console.log('Listening on port');
 });
