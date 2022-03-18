@@ -9,42 +9,42 @@ const seedProducts = [
         {
             name:'Cheeseburger',
             description:'A hamburger with cheese!',
-            img:'images/cheeseburger.jpg',
+            img:'https://github.com/ABCarrigan/store_project/blob/master/images/cheeseburger.jpg?raw=true',
             price:(3.99),
             qty:(99)
         },
         {
             name:'Hamburger',
             description:'A boring cheeseburger...',
-            img:'images/hamburger.jpg',
+            img:'https://github.com/ABCarrigan/store_project/blob/master/images/hamburger.jpg?raw=true',
             price:(3.49),
             qty:(99)        
         },
         {
             name:'Fries',
             description:'Crispy, golden french fries',
-            img:'images/fries.jpg',
+            img:'https://github.com/ABCarrigan/store_project/blob/master/images/frenchfries.jpg?raw=true',
             price:(0.99),
             qty:(99)
         },
         {
             name:'Chicken Wings',
             description:'Bone-in wings. Limited time offer!',
-            img:'images/chickenwings.jpg',
+            img:'https://github.com/ABCarrigan/store_project/blob/master/images/chickenwings.jpg?raw=true',
             price:(5.99),
             qty:(10)
         },
         {
             name:'Cola',
             description:'The staple soda!',
-            img:'images/cola.jpg',
+            img:'https://github.com/ABCarrigan/store_project/blob/master/images/cola.jpg?raw=true',
             price:(0.99),
             qty:(99)
         },
         {
             name:'Water',
             description:'The tried and true beverage.',
-            img:'images/water.jpg',
+            img:'https://github.com/ABCarrigan/store_project/blob/master/images/water.jpg?raw=true',
             price:(0.99),
             qty:(99)
         }
