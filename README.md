@@ -8,6 +8,7 @@ The goal of this application was to create a web app that interacts with a live 
 
 ### A video demonstration of the application at work.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ygmYXh-YyIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### A step by step guide on how to install and use this application locally.
 
@@ -15,7 +16,7 @@ First, download the repository to your PC. You can download it as a ZIP file.<br
 
 Now that we've downloaded the repository (don't forget to extract the zip), you'll need the node_modules folder and the .env file that is in the gitignore. <br>We'll install the node_modules first. Open up the repository in Visual Studio, then open your terminal and run `npm install`.<br>
 Next, you will want to create a .env file to and connect your mongoDB to it, using the connection string provided to you by the site.<br>
-After doing this, you will want to seed the database using my seed.js file. You can do this with the command `node seeds.js`.<br>
+After doing this, you will want to seed the database using my seeds.js file. You can do this with the command `node seeds.js`.<br>
 After installing these, use the command `nodemon`. You should be able to navigate to http://localhost:3000/products after this.
 
 ### Some examples of what the application looks like when installed.
