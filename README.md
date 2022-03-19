@@ -8,7 +8,7 @@ The goal of this application was to create a web app that interacts with a live 
 
 ### A video demonstration of the application at work.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ygmYXh-YyIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+https://youtu.be/ygmYXh-YyIY
 
 ### A step by step guide on how to install and use this application locally.
 
